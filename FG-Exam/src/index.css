@@ -1,0 +1,97 @@
+/* App.css */
+
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #f4f4f4;
+  margin: 110px;
+  padding: 0;
+  color: #333;
+  background-image:url("bg.jpg") ;
+  border: 5px;
+}
+
+header {
+  background-color: #000000;
+  color: rgb(255, 255, 255);
+  text-align: center;
+  padding: 20px 0;
+}
+p{
+  color: #ffffff;
+  font-family: 'Times New Roman', Times, serif;
+  text-align:left;
+}
+
+h1 {
+  color: #ffffff;
+  margin: 0;
+  font-size: 2.5rem;
+}
+
+h2 {
+  font-size: 1.5rem;
+  margin-top: 10px;
+}
+
+h3 {
+  color: #ffffff;
+  border-bottom: 2px solid #eaeaea;
+  padding-bottom: 10px;
+}
+
+h4 {
+  margin-top: 20px;
+  color: #ffffff;
+}
+
+ul {
+  list-style-type: square;
+  padding: 0;
+}
+
+li {
+  background: #9702fa;
+  margin: 10px 0;
+  padding: 15px;
+  border-radius: 50px;
+  box-shadow: 0 2px 5px rgba(177, 6, 245, 0.1);
+  color: #ffffff;
+}
+
+footer {
+  text-align: center;
+  margin-top: 20px;
+  padding: 20px 0;
+  background-color: #000000;
+  color: white;
+}
+
+footer p {
+  margin: 10;
+  text-align: center;
+  height: 10px;
+}
+.keyboard-image {
+  width: 100%; 
+  max-width: 800px; 
+  height: auto; 
+  display: block; 
+  margin: 20px auto; 
+  border-radius: 10px; 
+  box-shadow: 10 10px 10px rgba(118, 3, 250, 0.2); 
+}
+
+
+@media (max-width: 600px) {
+  h1 {
+      font-size: 2rem;
+  }
+
+  h2 {
+      font-size: 1.2rem;
+  }
+
+  h3, h4 {
+      font-size: 1.1rem;
+  }
+}
